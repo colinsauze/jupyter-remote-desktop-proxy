@@ -14,7 +14,6 @@ RUN apt-get -y -qq update \
         xorg \
         xubuntu-icon-theme \
         fonts-dejavu \
-        firefox \
     # Disable the automatic screenlock since the account password is unknown
  && apt-get -y -qq remove xfce4-screensaver \
     # chown $HOME to workaround that the xorg installation creates a
